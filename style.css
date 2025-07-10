@@ -45,6 +45,8 @@ header {
 
 /* Banner Section */
 .banner {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,4 +63,31 @@ header {
 
 .banner .btn {
   margin-bottom: 150px;
+}
+
+/* Action Section  */
+.action-section {
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.action-left h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.action-left p {
+  max-width: 500px;
+  font-size: 26px;
+  opacity: 40%;
+  margin: 25px 0;
+}
+
+.action-right img {
+  max-width: 100%;
+  border-radius: 50px;
 }
