@@ -128,6 +128,59 @@ header {
 }
 
 
+/* Users’ Feedback Section */
+.reviews-section {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.reviews-section h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.review-card {
+  background: #f5f8ff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  border: #8987a127 1px solid;
+}
+
+.stars {
+  margin-bottom: 15px;
+}
+
+.review-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  margin: 10px 0;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: gray;
+}
+
+.reviewer img {
+  border-radius: 50%;
+}
+
 /* Let’s Get In Touch Section  */
 .contact-section {
   max-width: 1200px;
@@ -177,6 +230,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-top: #8987a150 1px solid;
 }
 
 footer img {
@@ -186,7 +240,7 @@ footer img {
 footer p {
   color: #8987A1;
   margin: 20px 0;
-  max-width: 600px;
+  max-width: 450px;
 }
 
 footer a {
