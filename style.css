@@ -126,3 +126,41 @@ header {
   opacity: 50%;
   font-size: 20px;
 }
+
+
+/* Let’s Get In Touch Section  */
+.contact-section {
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-left h1 {
+  max-width: 500px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 20px 40px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  font-size: 14px;
+}
